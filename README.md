@@ -1,1 +1,0 @@
-# troytemplin.com personal site
