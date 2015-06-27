@@ -1,1 +1,1 @@
-# [SocalCycles.bike](SocalCycles.com)
+# [SocalCycles.bike](http://socalcycles.bike/)
