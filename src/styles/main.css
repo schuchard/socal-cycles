@@ -1,12 +1,22 @@
 .vCenter {
-  position: relative;
-  top: 28%;
+    position: relative;
+    top: 8%;
 }
 
 .main {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.landingImg {
+    width: 550px;
+    padding: 30px;
+}
+
+h4 {
+    margin-top: 25px;
+    padding: 15px;
 }

@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http://troytemplin.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://troytemplin.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.troytemplin.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.troytemplin.com$      [NC]
