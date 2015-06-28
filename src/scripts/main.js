@@ -24,10 +24,9 @@ var animate = runAnimation();
 
     $(document).on('ready', function() {
 
-      setTimeout(function (argument) {
-          animate.spin(360);
-      },1500);
+        setTimeout(function (argument) {
+            animate.spin(360);
+        },1500);
 
     });
-
 })(jQuery);
