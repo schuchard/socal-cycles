@@ -6,10 +6,14 @@ var animate = runAnimation();
         return {
             spin: spin
         }
-        // Rotate star by 'd' degree's
-        // TODO: add element argument
-        function spin(d) {
-            var elem = $('.landingStar');
+        
+        /**
+         * [spin description]
+         * @param  {number} d           Number of degrees to rotate
+         * @param  {$element} target    Jquery element to target
+         */
+        function spin(d, target) {
+            var elem = target;
             $({deg: 0}).animate({deg: d}, {
                 duration: 2500,
                 step: function (now) {
@@ -25,7 +29,7 @@ var animate = runAnimation();
     $(document).on('ready', function() {
 
         setTimeout(function (argument) {
-            animate.spin(360);
+            animate.spin(360, $('.landingStar'));
         },1500);
 
     });
